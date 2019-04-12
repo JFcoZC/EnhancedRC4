@@ -32,16 +32,8 @@ def RC4(key):
 
 if __name__ == '__main__':
 
-    key = '27 89 90 12 15'
+    key = [chr(27), chr(89), chr(90), chr(12), chr(15)]
     plaintext = 'Eso es todo amigos'
-
-    # ciphertext should be 1021BF0420
-    #key = 'Wiki'
-    #plaintext = 'pedia'
-
-    # ciphertext should be 45A01F645FC35B383552544B9BF5
-    #key = 'Secret'
-    #plaintext = 'Attack at dawn'
 
     t1 = time.clock()
     def convert_key(s):
