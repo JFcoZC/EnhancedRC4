@@ -32,11 +32,14 @@ def RC4(key):
 
 if __name__ == '__main__':
 
-    key = [chr(27), chr(89), chr(90), chr(12), chr(15)]
+    key = [27, 89, 90, 12, 15]
     plaintext = 'Eso es todo amigos'
 
     t1 = time.clock()
-    def convert_key(s):
+    def convert_key(k):
+        s=[]
+        for number in k:
+            s.append(chr(number))
         return [ord(c) for c in s]
     key = convert_key(key)
 
