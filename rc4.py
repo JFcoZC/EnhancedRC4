@@ -33,7 +33,7 @@ def RC4(key):
 if __name__ == '__main__':
 
     key = [27, 89, 90, 12, 15]
-    plaintext = 'Eso es todo amigos'
+    plaintext = 'Lorem ipsum dolor sit amet, vix in alterum repudiandae, usu solum utinam perfecto an. Cum et tota eripuit denique, ad veri nostro aperiam pro. Per id impetus appellantur, vix verear aliquid signiferumque an, ne mea erant tempor erroribus. Perfecto referrentur consequuntur et his, sea ea case copiosae deterruisset, purto populo indoctum te qui. Sea delicata constituto ut, at ius assueverit consectetuer, discere oportere ex usu. Sint iusto ea ius. Reformidans concludaturque id mea, ne sea malorum legendos erroribus, id melius eleifend urbanitas sit. No sea ferri invenire intellegebat, meis neglegentur usu ex. Singulis torquatos pri ut. Nemore eruditi placerat at.'
 
     t1 = time.clock()
     def convert_key(k):
